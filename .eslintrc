@@ -1,0 +1,29 @@
+{
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier",
+      "prettier/react",
+      "eslint-config-prettier"
+    ],
+    "globals": {
+      "navigator": true,
+      "localStorage": true,
+      "fetch": true,
+      "import": true,
+      "document": true,
+      "window": true
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": ["src"]
+        }
+      }
+    },
+    "rules": {
+    },
+    "overrides": [
+    ]
+  }
+  
